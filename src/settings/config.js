@@ -1,12 +1,12 @@
 require("dotenv").config();
 
 module.exports = {
-    token: process.env.TOKEN || "BOTTOKEN", // <==== PASTE YOU TOKEN
+    token: process.env.TOKEN || "", // <==== PASTE YOU TOKEN
     prefix: process.env.PREFIX || "<", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
     color: process.env.EMBED_COLOR || "#c50632", // <==== YOU EMBEDED HEX COLOR
     owner: process.env.OWNER_ID || "611408493274071060", // <==== BOTS OWNER ID
-    guildLogs: process.env.GUILD_LOGS || "1227560035211804713", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
-    leaveTimeout: process.env.LEAVE_TIMEOUT || "2000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
+    guildLogs: process.env.GUILD_LOGS || "1226846159717531720", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
+    leaveTimeout: process.env.LEAVE_TIMEOUT || "5000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
     disableYouTube: parseBoolean(process.env.DISABLE_YOUTUBE || "false"), // <==== SET "TRUE OR FALSE" | ENABLE/DISABLE YOUTUBE FEATURES. DISABLING THIS WILL MAKE "AUTOPLAY" COMMANDS USELESS!!!
 
     // ⬇⬇⬇ PORU DETAILS
@@ -14,7 +14,7 @@ module.exports = {
     poruOptions: {
         defaultPlatform: process.env.DEFAULT_SOURCE || "ytsearch", // <==== SET DEFAULT SOURCE || "ytsearch","ytmsearch","scsearch"
         clientID: process.env.SPOTIFY_ID || "6c31645ffb004ab8b44d06f7b96d1b66", // <==== SPOTIFY CLIENT ID
-        clientSecret: process.env.SPOTIFY_SECRET || "3618fdc0b4824cfd91a8d425dac32987 ", // <==== SPOTIFY CLIENT SECRET
+        clientSecret: process.env.SPOTIFY_SECRET || "3618fdc0b4824cfd91a8d425dac32987", // <==== SPOTIFY CLIENT SECRET
         reconnectTries: 5, // <==== TOTAL ATTEMPS TO TRY IF RECONNECT FAILED. YOU CAN CHANGE IT TO "Infinity" FOR UNLIMITED ATTEMPS.
         playlistLimit: 2, // <==== 1 = 100 TRACKS
         albumLimit: 2, // <==== 1 = 50 TRACKS
@@ -24,17 +24,17 @@ module.exports = {
     nodes: [
         {
             name: process.env.NODE_NAME1 || "Node 1", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST1 || "lavalink.mlserv.xyz", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT1 || "32669"), // <==== LAVALINK PORT
-            password: process.env.NODE_PASSWORD1 || "dsc.gg/sciencegear", // <==== PASSWORD/AUTH
+            host: process.env.NODE_HOST1 || "charmony.miruku.host", // <==== LAVALINK NAME HOST
+            port: parseInt(process.env.NODE_PORT1 || "5050"), // <==== LAVALINK PORT
+            password: process.env.NODE_PASSWORD1 || "youshallnotpass", // <==== PASSWORD/AUTH
             secure: parseBoolean(process.env.NODE_SECURE1 || "false"), // <==== LAVALINK SECURE "true/false"
             regions: process.env.NODE_REGIONS1 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
         },
         {
             name: process.env.NODE_NAME2 || "Node 2", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST2 || "lava.link", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT2 || "80"), // <==== LAVALINK PORT
-            password: process.env.NODE_PASSWORD2 || "kronix", // <==== PASSWORD/AUTH
+            host: process.env.NODE_HOST2 || "54.36.225.156", // <==== LAVALINK NAME HOST
+            port: parseInt(process.env.NODE_PORT2 || "2333"), // <==== LAVALINK PORT
+            password: process.env.NODE_PASSWORD2 || "s4DarqP$&y", // <==== PASSWORD/AUTH
             secure: parseBoolean(process.env.NODE_SECURE2 || "false"), // <==== LAVALINK SECURE "true/false"
             regions: process.env.NODE_REGIONS2 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
         }
@@ -42,9 +42,9 @@ module.exports = {
 
     // ⬇⬇⬇ LINK BOTS DETAILS
     mongoUri: process.env.MONGO_URI || "mongodb+srv://youtube:youtube123@youtubedatabase.rvezx.mongodb.net/BestBot", // <==== YOUR MONGODB LINK
-    supportUrl: process.env.SUPPORT_URL || "https://discord.gg", // <==== YOUR SUPPORT SERVER LINK
+    supportUrl: process.env.SUPPORT_URL || "https://discord.gg/TjtXnYD9SP", // <==== YOUR SUPPORT SERVER LINK
     voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
-    inviteUrl: process.env.INVITE_URL || "https://discord.com/oauth2/authorize?client_id=1213700667374571620&permissions=8&scope=bot", // <==== YOUR BOT INVITE LINK
+    inviteUrl: process.env.INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1122883732303511583&permissions=8&scope=bot+applications.commands", // <==== YOUR BOT INVITE LINK
     imageUrl: process.env.IMAGE_URL || "https://i.imgur.com/HB32QqX.png", // <==== YOUR IMAGE LINK 
 };
 
