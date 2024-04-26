@@ -1,4 +1,4 @@
-# Muzio - Your Discord Music Bot
+# FAKY's music  - Your Discord Music Bot
 
 <p align="center">
   <img src="https://i.ibb.co/zmMnfQn/Muzio-Main.png" width="400" alt="Muzio Bot">
