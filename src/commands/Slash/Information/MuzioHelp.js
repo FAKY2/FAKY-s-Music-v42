@@ -114,7 +114,7 @@ module.exports = {
                             )
                             .setColor(client.color)
                             .setFooter({
-                                text: `Muzio | Total Commands: ${
+                                text: `FAKY's MUSIC | Total Commands: ${
                                     client.slashCommands.filter((c) => c.category === directory).size
                                 }`,
                                 iconURL: client.user.displayAvatarURL({ dynamic: true }),
