@@ -157,7 +157,7 @@ module.exports.run = async (client, interaction) => {
 
         // CHECK OWNER
         if (command.settings.owner && interaction.user.id !== client.owner) {
-            warning.setDescription(`${emoji.custom_emoji.cross} | Only my owner can use this command!\n\nMuzio !`);
+            warning.setDescription(`${emoji.custom_emoji.cross} | Only my owner can use this command!\n\n***FAKY*** !`);
 
             return interaction.reply({ embeds: [warning], ephemeral: true });
         }
