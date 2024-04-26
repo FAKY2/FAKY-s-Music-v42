@@ -43,7 +43,7 @@ module.exports = {
     // ⬇⬇⬇ LINK BOTS DETAILS
     mongoUri: process.env.MONGO_URI || "mongodb+srv://youtube:youtube123@youtubedatabase.rvezx.mongodb.net/BestBot", // <==== YOUR MONGODB LINK
     supportUrl: process.env.SUPPORT_URL || "https://discord.gg/TjtXnYD9SP", // <==== YOUR SUPPORT SERVER LINK
-    voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
+    voteUrl: process.env.VOTE_URL || "https://j.top4top.io/p_3038uov4w1.png", // <==== YOUR VOTE URL
     inviteUrl: process.env.INVITE_URL || "https://discord.com/oauth2/authorize?client_id=1213700667374571620&permissions=2150853712&scope=bot", // <==== YOUR BOT INVITE LINK
     imageUrl: process.env.IMAGE_URL || "https://i.imgur.com/HB32QqX.png", // <==== YOUR IMAGE LINK 
 };
