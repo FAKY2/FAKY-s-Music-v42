@@ -12,7 +12,7 @@ module.exports.run = async (client, message) => {
     const mention = new RegExp(`^<@!?${client.user.id}>( |)$`);
 
     if (message.content.match(mention)) {
-        const embed = new EmbedBuilder().setColor(client.color).setDescription(`👋🏻 Hey Users\n${emoji.custom_emoji.author} Prefix Muzio for this server is: \`/\` ( Slash Commands )`);
+        const embed = new EmbedBuilder().setColor(client.color).setDescription(`👋🏻 Hey Users\n${emoji.custom_emoji.author} The Prefix for this server is: \`/\` ( Slash Commands )`);
 
         message.reply({ embeds: [embed] });
     }
