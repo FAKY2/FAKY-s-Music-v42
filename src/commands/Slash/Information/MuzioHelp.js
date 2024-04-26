@@ -32,7 +32,7 @@ module.exports = {
         await interaction.deferReply({ ephemeral: false });
 
         const row2 = new ActionRowBuilder()
-            .addComponents(new ButtonBuilder().setLabel("Invite Muzio").setURL(inviteUrl).setStyle(ButtonStyle.Link))
+            .addComponents(new ButtonBuilder().setLabel("Invite Faky's Music").setURL(inviteUrl).setStyle(ButtonStyle.Link))
             .addComponents(new ButtonBuilder().setLabel("Support Server").setURL(supportUrl).setStyle(ButtonStyle.Link));
 
         const categories = readdirSync("./src/commands/Slash/");
@@ -45,15 +45,11 @@ module.exports = {
             .setColor(client.color)
             .setDescription(`👋🏻 Hey ${interaction.member} I am **${client.user.username}** A complete Music Bot for your server Providing you the best quality music`)
             .addFields({
-                name: `Links`,
-                value: `[**Muzio**](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands) \n [**Support Server**](${supportUrl}) \n [**Vote me**](${voteUrl})`
-            })
-            .addFields({
                 name: `Command Categories`,
                 value: `${emoji.custom_emoji.dev} : **Developer** \n ${emoji.custom_emoji.filters} : **Filters** \n ${emoji.custom_emoji.info} : **Information** \n ${emoji.custom_emoji.music} : **Music** \n ${emoji.custom_emoji.premium} : **Premium**`
             })            
             .setFooter({
-                text: `Thanks For Selecting Muzio!`,
+                text: `Faky's Music!`,
                 iconURL: interaction.member.displayAvatarURL({
                     dynamic: true
                 })
@@ -66,7 +62,7 @@ module.exports = {
         const row = new ActionRowBuilder().addComponents([
             new StringSelectMenuBuilder()
                 .setCustomId("help-category")
-                .setPlaceholder(`Muzio is Love!`)
+                .setPlaceholder(`select the commands`)
                 .setMaxValues(1)
                 .setMinValues(1)
                 .setOptions(
@@ -142,7 +138,7 @@ module.exports = {
                         )
                         .setColor(client.color)
                         .setFooter({
-                            text: `Muzio!`,
+                            text: `FAKY!`,
                             iconURL: client.user.displayAvatarURL({ dynamic: true }),
                         })
                         .setTimestamp();
