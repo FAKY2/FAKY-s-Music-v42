@@ -21,24 +21,25 @@ module.exports = {
         artistLimit: 2, // <==== 1 = 50 TRACKS
         searchMarket: "us",
     },
-    nodes: [
-        {
-            name: process.env.NODE_NAME1 || "Node 1", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST1 || "charmony.miruku.host", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT1 || "5050"), // <==== LAVALINK PORT
-            password: process.env.NODE_PASSWORD1 || "youshallnotpass", // <==== PASSWORD/AUTH
-            secure: parseBoolean(process.env.NODE_SECURE1 || "false"), // <==== LAVALINK SECURE "true/false"
-            regions: process.env.NODE_REGIONS1 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
-        },
-        {
-            name: process.env.NODE_NAME2 || "Node 2", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST2 || "54.36.225.156", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT2 || "2333"), // <==== LAVALINK PORT
-            password: process.env.NODE_PASSWORD2 || "s4DarqP$&y", // <==== PASSWORD/AUTH
-            secure: parseBoolean(process.env.NODE_SECURE2 || "false"), // <==== LAVALINK SECURE "true/false"
-            regions: process.env.NODE_REGIONS2 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
-        }
-    ],
+nodes: [
+    {
+        name: process.env.NODE_NAME1 || "Node 1", // Lavalink node name (anything you want)
+        host: process.env.NODE_HOST1 || "charmony.miruku.host", // <==== Lavalink host
+        port: parseInt(process.env.NODE_PORT1 || "5050"), // <==== Lavalink port
+        password: process.env.NODE_PASSWORD1 || "youshallnotpass", // <==== Password/Auth
+        secure: process.env.NODE_SECURE1 === "true", // <==== Lavalink secure "true/false"
+        regions: process.env.NODE_REGIONS1 ? process.env.NODE_REGIONS1.split(",") : ["singapore"], // <==== Available Lavalink regions ["singapore", "indonesian", "japan"]
+    },
+    {
+        name: process.env.NODE_NAME2 || "Node 2", // Lavalink node name (anything you want)
+        host: process.env.NODE_HOST2 || "54.36.225.156", // <==== Lavalink host
+        port: parseInt(process.env.NODE_PORT2 || "2333"), // <==== Lavalink port
+        password: process.env.NODE_PASSWORD2 || "s4DarqP$&y", // <==== Password/Auth
+        secure: process.env.NODE_SECURE2 === "true", // <==== Lavalink secure "true/false"
+        regions: process.env.NODE_REGIONS2 ? process.env.NODE_REGIONS2.split(",") : ["singapore"], // <==== Available Lavalink regions ["singapore", "indonesian", "japan"]
+    }
+]
+
 
     // ⬇⬇⬇ LINK BOTS DETAILS
     mongoUri: process.env.MONGO_URI || "mongodb+srv://youtube:youtube123@youtubedatabase.rvezx.mongodb.net/BestBot", // <==== YOUR MONGODB LINK
