@@ -42,9 +42,9 @@ module.exports = {
 
     // ⬇⬇⬇ LINK BOTS DETAILS
     mongoUri: process.env.MONGO_URI || "mongodb+srv://youtube:youtube123@youtubedatabase.rvezx.mongodb.net/BestBot", // <==== YOUR MONGODB LINK
-    supportUrl: process.env.SUPPORT_URL || "https://discord.gg/TjtXnYD9SP", // <==== YOUR SUPPORT SERVER LINK
+    supportUrl: process.env.SUPPORT_URL || "https://discord.gg", // <==== YOUR SUPPORT SERVER LINK
     voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
-    inviteUrl: process.env.INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1122883732303511583&permissions=8&scope=bot+applications.commands", // <==== YOUR BOT INVITE LINK
+    inviteUrl: process.env.INVITE_URL || "https://discord.com/oauth2/authorize?client_id=1213700667374571620&permissions=40671259392832&scope=bot", // <==== YOUR BOT INVITE LINK
     imageUrl: process.env.IMAGE_URL || "https://i.imgur.com/HB32QqX.png", // <==== YOUR IMAGE LINK 
 };
 
