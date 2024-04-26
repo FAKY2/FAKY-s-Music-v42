@@ -38,7 +38,7 @@ nodes: [
         secure: process.env.NODE_SECURE2 === "true", // <==== Lavalink secure "true/false"
         regions: process.env.NODE_REGIONS2 ? process.env.NODE_REGIONS2.split(",") : ["singapore"], // <==== Available Lavalink regions ["singapore", "indonesian", "japan"]
     }
-]
+],
 
 
     // ⬇⬇⬇ LINK BOTS DETAILS
