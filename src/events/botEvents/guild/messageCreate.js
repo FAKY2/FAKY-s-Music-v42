@@ -66,7 +66,7 @@ module.exports.run = async (client, message) => {
 
     // CHECK OWNER
     if (command.owner && message.author.id !== client.owner) {
-        return message.reply({ content: `${emoji.custom_emoji.cross} | Only my owner can use this command!\n\nMuzio !` });
+        return message.reply({ content: `${emoji.custom_emoji.cross} | Only my owner can use this command!\n\n***FAKY*** !` });
     }
 
     // ERORR HANDLING
