@@ -52,7 +52,7 @@ module.exports = {
                 { name: `${emoji.custom_emoji.admin} Team`, value: `\`\`\`science_gear, mrduke15 , azerty442005\`\`\``, inline: true },
             ])
             .setColor(client.color)
-            .setFooter({ text: `Muzio !`, iconURL: client.user.displayAvatarURL({ dynamic: true }) })
+            .setFooter({ text: `FAKY !`, iconURL: client.user.displayAvatarURL({ dynamic: true }) })
             .setTimestamp();
 
         return interaction.editReply({ embeds: [embed], components: [row] });
