@@ -56,7 +56,7 @@ module.exports.run = async (client, oldState, newState) => {
 
                 const TimeoutEmbed = new EmbedBuilder()
                     .setDescription(
-                        `\`👋\` | Disconnected...!!! Because I was left alone in <#${vcRoom}>. This can be disable by using \`247\` command.\n\n Muzio 💖`,
+                        `\`👋\` | Disconnected...!!! Because I was left alone in <#${vcRoom}>. This can be disable by using \`247\` command.\n\n FAKY's Music`,
                     )
                     .setColor(client.color);
 
