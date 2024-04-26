@@ -23,7 +23,7 @@ module.exports = {
 
         const row2 = new ActionRowBuilder()
             .addComponents(
-                new ButtonBuilder().setLabel("Source Code").setURL("https://github.com/ScienceGear/muzio").setStyle(ButtonStyle.Link),
+                new ButtonBuilder().setLabel("---").setURL("https://j.top4top.io/p_3038uov4w1.png").setStyle(ButtonStyle.Link),
                 new ButtonBuilder().setLabel("Invite Me").setURL(inviteUrl).setStyle(ButtonStyle.Link)
             );
 
