@@ -24,10 +24,10 @@ module.exports = {
     nodes: [
         {
             name: process.env.NODE_NAME1 || "Node 1", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST1 || "charmony.miruku.host", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT1 || "5050"), // <==== LAVALINK PORT
-            password: process.env.NODE_PASSWORD1 || "youshallnotpass", // <==== PASSWORD/AUTH
-            secure: parseBoolean(process.env.NODE_SECURE1 || "false"), // <==== LAVALINK SECURE "true/false"
+            host: process.env.NODE_HOST1 || "lavalinkbackup.skybloxsystems.com", // <==== LAVALINK NAME HOST
+            port: parseInt(process.env.NODE_PORT1 || "443"), // <==== LAVALINK PORT
+            password: process.env.NODE_PASSWORD1 || "s4DarqP$&y", // <==== PASSWORD/AUTH
+            secure: parseBoolean(process.env.NODE_SECURE1 || "true"), // <==== LAVALINK SECURE "true/false"
             regions: process.env.NODE_REGIONS1 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
         },
         {
