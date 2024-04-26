@@ -19,7 +19,7 @@ module.exports.run = async (client, interaction) => {
 
         if (client.dev.has(true) && interaction.user.id !== client.owner) {
             return interaction.reply({
-                content: `👋🏻 Hey Users\n**${client.user} is under maintenance right now**`,
+                content: `👋🏻 Hey Users\n**${client.user} is under maintenance right now, Apologies for the inconvenience, but our bot is currently undergoing maintenance to ensure smoother performance and better user experience. We'll be back online shortly. Thank you for your patience! This action was taken by the owner <@611408493274071060>**`,
                 components: [row],
                 ephemeral: true,
             });
