@@ -32,10 +32,10 @@ module.exports = {
         },
         {
             name: process.env.NODE_NAME2 || "Node 2", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST2 || "54.36.225.156", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT2 || "2333"), // <==== LAVALINK PORT
+            host: process.env.NODE_HOST2 || "lavalink1.skybloxsystems.com", // <==== LAVALINK NAME HOST
+            port: parseInt(process.env.NODE_PORT2 || "443"), // <==== LAVALINK PORT
             password: process.env.NODE_PASSWORD2 || "s4DarqP$&y", // <==== PASSWORD/AUTH
-            secure: parseBoolean(process.env.NODE_SECURE2 || "false"), // <==== LAVALINK SECURE "true/false"
+            secure: parseBoolean(process.env.NODE_SECURE2 || "true"), // <==== LAVALINK SECURE "true/false"
             regions: process.env.NODE_REGIONS2 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
         }
     ],
