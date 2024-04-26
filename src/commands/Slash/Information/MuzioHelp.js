@@ -105,7 +105,7 @@ module.exports = {
                                 iconURL: interaction.guild.iconURL({ dynamic: true }),
                             })
                             .setDescription(
-                                `\ \n\n**\<:icons_audioenable:1123545966335762462> ${
+                                `\ \n\n**\💻  ${
                                     directory.slice(0, 1).toUpperCase() + directory.slice(1)
                                 } Commands:**\n${client.slashCommands
                                     .filter((c) => c.category === directory)
