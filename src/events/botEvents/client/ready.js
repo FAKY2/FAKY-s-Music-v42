@@ -26,10 +26,10 @@ module.exports.run = async (client) => {
         const members = results[1].reduce((acc, memberCount) => acc + memberCount, 0);
 
         const status = [
-            { type: ActivityType.Playing, name: "Made with 💖 By ScienceGear" },
-            { type: ActivityType.Listening, name: "/help | @Muzio" },
+            { type: ActivityType.Playing, name: "Made BY | FAKY" },
+            { type: ActivityType.Listening, name: "/help" },
             { type: ActivityType.Watching, name: `On ${servers} Server with ${members} Users` },
-            { type: ActivityType.Listening, name: `Music 🎧` },
+            { type: ActivityType.Listening, name: `/help` },
         ];
 
         const index = Math.floor(Math.random() * status.length);
