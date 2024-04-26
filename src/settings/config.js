@@ -3,7 +3,7 @@ require("dotenv").config();
 module.exports = {
     token: process.env.TOKEN || "", // <==== PASTE YOU TOKEN
     prefix: process.env.PREFIX || "<", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
-    color: process.env.EMBED_COLOR || "#06bbc5", // <==== YOU EMBEDED HEX COLOR
+    color: process.env.EMBED_COLOR || "#caa311", // <==== YOU EMBEDED HEX COLOR
     owner: process.env.OWNER_ID || "611408493274071060", // <==== BOTS OWNER ID
     guildLogs: process.env.GUILD_LOGS || "1227560035211804713", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
     leaveTimeout: process.env.LEAVE_TIMEOUT || "5000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
