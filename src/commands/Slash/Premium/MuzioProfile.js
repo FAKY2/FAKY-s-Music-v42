@@ -34,7 +34,7 @@ module.exports = {
             .setColor(client.color)
             .setDescription(`${emoji.custom_emoji.premium} Here are the details about your premium status.`)
             .setThumbnail(interaction.user.displayAvatarURL())
-            .setFooter({ text: "Muzio !" })
+            .setFooter({ text: "FAKY!" })
             .setTimestamp();
 
         if (user.premium.plan === "lifetime") {
