@@ -2,19 +2,19 @@ require("dotenv").config();
 
 module.exports = {
     token: process.env.TOKEN || "BOTTOKEN", // <==== PASTE YOU TOKEN
-    prefix: process.env.PREFIX || "f?", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
+    prefix: process.env.PREFIX || "<", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
     color: process.env.EMBED_COLOR || "#c50632", // <==== YOU EMBEDED HEX COLOR
-    owner: process.env.OWNER_ID || "900708551805268019", // <==== BOTS OWNER ID
-    guildLogs: process.env.GUILD_LOGS || "000000000000000", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
-    leaveTimeout: process.env.LEAVE_TIMEOUT || "20000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
+    owner: process.env.OWNER_ID || "611408493274071060", // <==== BOTS OWNER ID
+    guildLogs: process.env.GUILD_LOGS || "1227560035211804713", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
+    leaveTimeout: process.env.LEAVE_TIMEOUT || "2000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
     disableYouTube: parseBoolean(process.env.DISABLE_YOUTUBE || "false"), // <==== SET "TRUE OR FALSE" | ENABLE/DISABLE YOUTUBE FEATURES. DISABLING THIS WILL MAKE "AUTOPLAY" COMMANDS USELESS!!!
 
     // ⬇⬇⬇ PORU DETAILS
     playSource: process.env.PLAY_SOURCE || "ytsearch", // <==== SET YOUR PLAY SOURCE || "ytsearch","ytmsearch","scsearch"
     poruOptions: {
         defaultPlatform: process.env.DEFAULT_SOURCE || "ytsearch", // <==== SET DEFAULT SOURCE || "ytsearch","ytmsearch","scsearch"
-        clientID: process.env.SPOTIFY_ID || "YourSpotifyID", // <==== SPOTIFY CLIENT ID
-        clientSecret: process.env.SPOTIFY_SECRET || "YourSpotifySecret", // <==== SPOTIFY CLIENT SECRET
+        clientID: process.env.SPOTIFY_ID || "6c31645ffb004ab8b44d06f7b96d1b66", // <==== SPOTIFY CLIENT ID
+        clientSecret: process.env.SPOTIFY_SECRET || "3618fdc0b4824cfd91a8d425dac32987 ", // <==== SPOTIFY CLIENT SECRET
         reconnectTries: 5, // <==== TOTAL ATTEMPS TO TRY IF RECONNECT FAILED. YOU CAN CHANGE IT TO "Infinity" FOR UNLIMITED ATTEMPS.
         playlistLimit: 2, // <==== 1 = 100 TRACKS
         albumLimit: 2, // <==== 1 = 50 TRACKS
@@ -41,7 +41,7 @@ module.exports = {
     ],
 
     // ⬇⬇⬇ LINK BOTS DETAILS
-    mongoUri: process.env.MONGO_URI || "mongodb+srv://YourMongoURI", // <==== YOUR MONGODB LINK
+    mongoUri: process.env.MONGO_URI || "mongodb+srv://youtube:youtube123@youtubedatabase.rvezx.mongodb.net/BestBot", // <==== YOUR MONGODB LINK
     supportUrl: process.env.SUPPORT_URL || "https://discord.gg/TjtXnYD9SP", // <==== YOUR SUPPORT SERVER LINK
     voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
     inviteUrl: process.env.INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1122883732303511583&permissions=8&scope=bot+applications.commands", // <==== YOUR BOT INVITE LINK
