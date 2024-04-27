@@ -5,7 +5,7 @@ module.exports = {
     prefix: process.env.PREFIX || "<", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
     color: process.env.EMBED_COLOR || "#caa311", // <==== YOU EMBEDED HEX COLOR
     owner: process.env.OWNER_ID || "611408493274071060", // <==== BOTS OWNER ID
-    guildLogs: process.env.GUILD_LOGS || "1226846159717531720", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
+    guildLogs: process.env.GUILD_LOGS || "1227560035211804713", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
     leaveTimeout: process.env.LEAVE_TIMEOUT || "3000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
     disableYouTube: parseBoolean(process.env.DISABLE_YOUTUBE || "false"), // <==== SET "TRUE OR FALSE" | ENABLE/DISABLE YOUTUBE FEATURES. DISABLING THIS WILL MAKE "AUTOPLAY" COMMANDS USELESS!!!
 
