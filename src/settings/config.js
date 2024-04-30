@@ -42,8 +42,8 @@ module.exports = {
 
     // ⬇⬇⬇ LINK BOTS DETAILS
     mongoUri: process.env.MONGO_URI || "mongodb+srv://youtube:youtube123@youtubedatabase.rvezx.mongodb.net/BestBot", // <==== YOUR MONGODB LINK
-    supportUrl: process.env.SUPPORT_URL || "https://discord.com", // <==== YOUR SUPPORT SERVER LINK
-    voteUrl: process.env.VOTE_URL || "https://discord.com", // <==== YOUR VOTE URL
+    supportUrl: process.env.SUPPORT_URL || "https://www.wix.com/website-template/view/html/3367?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fone-page%2Fcoming-soon&tpClick=view_button&esi=c58099bb-fefb-4656-9a24-888994281fa4", // <==== YOUR SUPPORT SERVER LINK
+    voteUrl: process.env.VOTE_URL || "https://www.wix.com/website-template/view/html/3367?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fone-page%2Fcoming-soon&tpClick=view_button&esi=c58099bb-fefb-4656-9a24-888994281fa4", // <==== YOUR VOTE URL
     inviteUrl: process.env.INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1213700667374571620&permissions=8&scope=bot+applications.commands", // <==== YOUR BOT INVITE LINK
     imageUrl: process.env.IMAGE_URL || "https://j.top4top.io/p_3038uov4w1.png", // <==== YOUR IMAGE LINK 
 };
